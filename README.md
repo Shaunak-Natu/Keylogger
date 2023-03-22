@@ -20,7 +20,7 @@ financial gain or other malicious purposes.
 
 ### Working: -
 
-    Two things happen when the keylog() function is called. Firstly, a keyboard object is created and it begins recording all
+   Two things happen when the keylog() function is called. Firstly, a keyboard object is created and it begins recording all
 the keystrokes. Secondly, a text file named "log" is created. The Keyboard object then writes all the keystrokes into a text file.
 
 ### Problems / Errors I faced and how I solved them : -
