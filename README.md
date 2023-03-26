@@ -12,7 +12,7 @@ Keyloggers can be used for both legitimate and illegitimate purposes. For exampl
 monitor employee activity on company-owned computers, while hackers may use keyloggers to steal sensitive information for
 financial gain or other malicious purposes.
 
-## Requirements: -
+## Requirements
 
 1. python3: -
 You should have python3 installed in your system. You can download it from the official website.   (https://www.python.org/downloads/)
