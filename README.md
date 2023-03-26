@@ -1,38 +1,56 @@
-# keylogger Implementation in Python.
-
+# keyboard Event Logger.
 
 ## What is a Key Logger?
-   A keylogger is a type of software or hardware device that records every keystroke made on a computer keyboard. It is
+
+A keylogger is a type of software or hardware device that records every keystroke made on a computer keyboard. It is
 designed to run in the background of a computer system without being detected by the user, and it can capture all the data
 that is entered on the keyboard, including usernames, passwords, credit card numbers, and other sensitive information.
 
 ## Why is it used?
-   Keyloggers can be used for both legitimate and illegitimate purposes. For example, some companies use keyloggers to 
+
+Keyloggers can be used for both legitimate and illegitimate purposes. For example, some companies use keyloggers to 
 monitor employee activity on company-owned computers, while hackers may use keyloggers to steal sensitive information for
 financial gain or other malicious purposes.
 
-## My Implementation: -
+## Prerequisites: -
 
-### Features: -
+1. python3: -
+You should have python3 installed in your system. You can download it from the official website.   (https://www.python.org/downloads/)
 
-  1. Logs all keystrokes on the target machine.
-  2. The .exe file can be run on any windows machine.
+2. keyboard module: -
+The keylogger detects keystrokes with the help of keyboard module. Use the command below to install
+the keyboard module: -
 
-### Working: -
+![image](https://user-images.githubusercontent.com/78775456/227769918-1ac98792-e157-4462-994e-21f72be37907.png)
 
-   Two things happen when the keylog() function is called. Firstly, a keyboard object is created and it begins recording all
-the keystrokes. Secondly, a text file named "log" is created. The Keyboard object then writes all the keystrokes into a text file.
+## Usage
 
-### Problems / Errors I faced and how I solved them : -
+To use the program, simply run the keylogger.py file in Python. 
 
-1. No idea about what python libraries I was going to use: -
+![image](https://user-images.githubusercontent.com/78775456/227770404-088043b5-f2ab-434e-8869-0fe066b66b51.png)
 
-    At first I was clueless about how I was going to record all the keystrokes, what modules was I going to use and how was I going to log it. After some research I read about the keyboard module. Keyboard module detects all the keyboard events with a simple .record() function. 
+## Output
 
-2. making of the .exe file: -
+Upon starting the program, a "log.txt" file will be created. This text file will contain a log of
+all the keyboard events, including the time at which they were recorded and the key that was pressed or released. 
+Here is an example of what "log.txt" looks like: -
 
-### Some ideas on how can my keylogger be used in the real world: -
+![image](https://user-images.githubusercontent.com/78775456/227770622-ca2419f4-b1f9-4345-af76-f688ced4ed92.png)
 
-1. email: -
+## Acknowledgements
 
-2. usb: -
+1. Keyboard module:
+https://github.com/boppreh/keyboard
+
+2. Time module:
+https://www.geeksforgeeks.org/python-time-module/
+
+
+
+
+
+
+
+
+
+
