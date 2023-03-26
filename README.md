@@ -1,4 +1,4 @@
-# keyboard Event Logger.
+# keyboard Event Logger for Windows
 
 ## What is a Key Logger?
 
@@ -12,7 +12,7 @@ Keyloggers can be used for both legitimate and illegitimate purposes. For exampl
 monitor employee activity on company-owned computers, while hackers may use keyloggers to steal sensitive information for
 financial gain or other malicious purposes.
 
-## Prerequisites: -
+## Requirements: -
 
 1. python3: -
 You should have python3 installed in your system. You can download it from the official website.   (https://www.python.org/downloads/)
@@ -21,21 +21,26 @@ You should have python3 installed in your system. You can download it from the o
 The keylogger detects keystrokes with the help of keyboard module. Use the command below to install
 the keyboard module: -
 
-![image](https://user-images.githubusercontent.com/78775456/227769918-1ac98792-e157-4462-994e-21f72be37907.png)
+```
+pip install keyboard
+```
 
 ## Usage
 
 To use the program, simply run the keylogger.py file in Python. 
 
-![image](https://user-images.githubusercontent.com/78775456/227770404-088043b5-f2ab-434e-8869-0fe066b66b51.png)
-
+```
+python keylogger.py
+```
 ## Output
 
 Upon starting the program, a "log.txt" file will be created. This text file will contain a log of
 all the keyboard events, including the time at which they were recorded and the key that was pressed or released. 
 Here is an example of what "log.txt" looks like: -
 
-![image](https://user-images.githubusercontent.com/78775456/227770622-ca2419f4-b1f9-4345-af76-f688ced4ed92.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/78775456/227770622-ca2419f4-b1f9-4345-af76-f688ced4ed92.png" alt="My Image">
+</div>
 
 ## Acknowledgements
 
