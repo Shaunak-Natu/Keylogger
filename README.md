@@ -32,6 +32,21 @@ To use the program, simply run the keylogger.py file in Python.
 ```
 python keylogger.py
 ```
+
+In order to actually implement it, the first step will be to create an executable file. Below are the steps to convert your python file into
+a executable file with the help of pyinstaller. PyInstaller bundles a Python application and all its dependencies into a single package. The 
+user can run the packaged app without installing a Python interpreter or any modules.
+
+Step 1: First install pyinstaller package with the help of command given below: -  
+
+```pip install pyinstaller```
+
+Step 2: Create a .exe file with the help of pyinstaller: -
+
+```pyinstaller -F --noconsole keylogger.py```
+
+This command will create a standalone executable file from a Python script named name.py. For more information, visit https://pyinstaller.org/en/stable/usage.html#options
+
 ## Output
 
 Upon starting the program, a "log.txt" file will be created. This text file will contain a log of
