@@ -48,7 +48,9 @@ Step 2: Create a .exe file with the help of pyinstaller: -
 This command will create a standalone executable file from a Python script named name.py. For more information, visit https://pyinstaller.org/en/stable/usage.html#options
 
 ## Limitations
-The log file is created only after the program execution is terminated.
+
+1. The log file is created only after the program execution is terminated.
+2. The log file is stored on the targets' local machine. 
 
 ## Output
 
