@@ -50,7 +50,8 @@ This command will create a standalone executable file from a Python script named
 ## Limitations
 
 1. The log file is created only after the program execution is terminated.
-2. The log file is stored on the targets' local machine. 
+2. The log file is stored on the targets' local machine. So, in order to retrieve the log file, you should have phsyical 
+    access to the target machine.
 
 ## Output
 
